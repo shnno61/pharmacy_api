@@ -1,0 +1,28 @@
+id,name,description,manufacturer,unit_price,available_number
+1,Aspirin,Pain relief medication,Bayer,0.5,1000
+2,Ibuprofen,Nonsteroidal anti-inflammatory drug (NSAID),Advil,1.2,750
+3,Paracetamol,Pain relief medication,Tylenol,0.8,500
+4,Amoxicillin,Antibiotic medication,Pfizer,2.5,200
+5,Ciprofloxacin,Antibiotic medication,Bayer,3,100
+6,Omeprazole,Proton-pump inhibitor for acid reflux treatment,Prilosec,1.8,400
+7,Amlodipine,Calcium channel blocker for high blood pressure,Pfizer,2.3,300
+8,Atorvastatin,Statin medication for high cholesterol,Pfizer,1.9,250
+9,Gabapentin,Anticonvulsant medication for seizures,Neurontin,2.5,150
+10,Metformin,Oral medication for type 2 diabetes,Bristol-Myers Squibb,1.2,400
+11,Sertraline,Antidepressant medication,Pfizer,1.5,200
+12,Ativan,Benzodiazepine medication for anxiety and seizures,Pfizer,1.8,100
+13,Furosemide,Diuretic medication for high blood pressure,Roche,2,300
+14,Metoprolol,Beta blocker medication for highblood pressure,AstraZeneca,1.7,250
+15,Albuterol,Bronchodilator medication for asthma and COPD,GlaxoSmithKline,1.5,200
+16,Levothyroxine,Thyroid hormone medication for hypothyroidism,Pfizer,1.1,300
+17,Lisinopril,ACE inhibitor medication for high blood pressure,Merck,1.6,350
+18,Losartan,Angiotensin II receptor blocker for high blood pressure,AstraZeneca,1.9,400
+19,Montelukast,Leukotriene receptor antagonist for asthma and allergies,Merck,2.2,150
+20,Pantoprazole,Proton-pump inhibitor for acid reflux treatment,Pfizer,1.6,400
+21,Rosuvastatin,Statin medication for high cholesterol,AstraZeneca,2.1,200
+22,Sildenafil,Erectile dysfunction medication,Pfizer,3.5,100
+23,Tadalafil,Erectile dysfunction medication,Eli Lilly,4,75
+24,Tramadol,Opioidpain medication,Janssen,2.8,150
+25,Venlafaxine,Antidepressant medication,Pfizer,2.3,100
+26,Warfarin,Blood thinner medication,Bristol-Myers Squibb,1.4,300
+27,Zolpidem,Sedative-hypnotic medication for insomnia,Sanofi,2.5,50
