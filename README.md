@@ -9,7 +9,7 @@ it's an api for a pharmacy that search for a specific medicine in a database for
     - postgres
 
  ## Date
- - using a small dataset to jعسt test the api 
+ - using a small dataset to just test the api 
    - see file __dataset.csv__
   
 ___  
