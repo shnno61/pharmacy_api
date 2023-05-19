@@ -8,7 +8,7 @@ it's an api for a pharmacy that search for a specific medicine in a database for
  - database
     - postgres
 
- ## Date
+ ## Data
  - using a small dataset to just test the api 
    - see file __dataset.csv__
   
