@@ -3,9 +3,10 @@ import { Pool } from "pg";
 
 let db: Pool;
 
+// eslint-disable-next-line prefer-const
 db = new Pool({
   host: config.db_host,
-  port: config.db_port as unknown as number,
+  port: parseInt(config.db_port as string),
   database: config.db_name,
   user: config.db_user,
   password: config.db_password,

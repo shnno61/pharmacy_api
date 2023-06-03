@@ -9,7 +9,7 @@ const app: express.Application = express();
 app.use(bodyParser.json());
 app.use("/pharmacy", routes);
 app.use((req: Request, res: Response) => {
-  res.status(500).json({ status: "failed", info: "unvalid route" });
+  res.status(500).json({ status: "failed", info: "invalid route" });
 });
 
 app.listen(port, function () {

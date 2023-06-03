@@ -1,7 +1,14 @@
 import dotenv from "dotenv";
 dotenv.config();
-const { PORT, END_POINT, DB_HOST, DB_PORT, DB_USER, DB_PASSWORD, DB_NAME } =
-  process.env;
+const {
+  PORT,
+  END_POINT,
+  DB_HOST,
+  DB_PORT,
+  DB_USER,
+  DB_PASSWORD,
+  DB_NAME,
+} = process.env;
 
 export default {
   port: PORT,

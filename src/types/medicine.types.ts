@@ -1,7 +1,7 @@
 export type medicine = {
+  available_number?: number;
   name: string;
   description: string;
-  manufactures: string;
+  manufacturer: string;
   unit_price: number;
-  available_number?: number;
 };
