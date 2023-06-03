@@ -6,9 +6,13 @@ const medicine1 = new Medicine();
 
 export const show = async (req: Request, res: Response) => {
   try {
-    const medicine: medicine = await medicine1.show(req.params.name as string);
+    const medicine: medicine = await medicine1.show(
+      req.params.name as string,
+      req.params.number as unknown as number
+    );
     if (medicine) {
       res.status(200).json({
+        status: "available",
         data: medicine,
       });
     } else {
