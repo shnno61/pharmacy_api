@@ -1,12 +1,15 @@
-import express  from 'express';
-import { Router } from 'express';
-import config from './config';
-const port=config.port as unknown as number;
+import express from "express";
+import config from "./config";
+import bodyParser from "body-parser";
+import routes from "./routes";
+const port = config.port as unknown as number;
 
-const app: express.Application=express();
+const app: express.Application = express();
+app.use(bodyParser.json());
+app.use("/pharmacy", routes);
 
-app.use('/pharmacy', Router);
+app.listen(port, function () {
+  console.log(`the server is running at port: ${port}`);
+});
 
-app.listen(port , function () {console.log(`the server is running at port${port}`)});
-
- export default app ;
+export default app;
