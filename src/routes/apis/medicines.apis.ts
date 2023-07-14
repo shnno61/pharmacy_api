@@ -1,5 +1,8 @@
 import { Router } from "express";
-import { insert, show } from "../../handlers/medicines.handlers";
+import {
+  insert,
+  show,
+} from "../../handlers/medicines.handlers";
 
 const medicine_route = Router();
 

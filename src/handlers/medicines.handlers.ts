@@ -1,6 +1,10 @@
 import { Request, Response } from "express";
 import { medicine } from "../types/medicine.types";
 import { Medicine } from "../models/medicines.models";
+import config from "../config";
+const lat = config.lat;
+const long = config.long;
+const f_name = config.name;
 
 const medicine1 = new Medicine();
 
@@ -19,6 +23,9 @@ export const show = async (req: Request, res: Response) => {
         res.status(200).json({
           status: "available",
           data: medicine,
+          latitude: lat,
+          longitude: long,
+          name: f_name,
         });
       } else {
         throw new Error();
@@ -26,12 +33,13 @@ export const show = async (req: Request, res: Response) => {
     } catch (error) {
       res.status(404).json({
         status: "failed",
-        message: "This medicine is not available with us ",
+        message:
+          "This medicine is not available with us or you inputed an invalid values ",
       });
     }
   } else {
     res.status(500).json({
-      status: "failedd",
+      status: "failed",
       message: "invalid parameters",
     });
   }

@@ -9,6 +9,7 @@ export class Medicine {
     try {
       const conn = await db.connect();
       const sql = `SELECT name,description,manufacturer,unit_price FROM medicines WHERE name LIKE '%'|| $1 ||'%' AND $2<=available_number`;
+      // eslint-disable-next-line prettier/prettier
       const result = await conn.query(sql, [
         medecine_name,
         number_of_units,
